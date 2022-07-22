@@ -1,0 +1,295 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+    font-family: 'Roboto', sans-serif;
+
+    body {
+        width: 100%;
+        height: 150vh;
+
+        .aziz_work {
+            width: 100%;
+            background-image: url(../img/pepsi_img.webp);
+            height: 900px;
+            background-position: center;
+            position: relative;
+
+            .header {
+                width: 100%;
+                height: 130px;
+                background-color: grey;
+                display: flex;
+                align-items: center;
+                background: transparent;
+
+                .logo {
+                    margin-left: 100px;
+                    width: 70px;
+                    height: 80px;
+                    position: relative;
+
+                    .red_box {
+                        right: 0;
+                        position: absolute;
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 50px;
+                        background-color: red;
+                        border: 3px solid white;
+                    }
+
+                    .white_box {
+                        top: 42px;
+                        right: 37px;
+                        position: absolute;
+                        width: 35px;
+                        height: 35px;
+                        border-radius: 50px;
+                        background: transparent;
+                        border: 3px solid white;
+                    }
+                }
+
+                .logo_name {
+                    color: white;
+                    font-weight: bold;
+                    font-size: 60px;
+                    padding-left: 15px;
+                    font-style: oblique;
+                }
+
+                .menu {
+                    margin-left: 240px;
+                    width: 750px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    .menu_p {
+                        cursor: pointer;
+                        color: #9DBADF;
+                        font-weight: bold;
+                        font-size: 22px;
+                    }
+                }
+
+                .button {
+                    width: 190px;
+                    height: 45px;
+                    color: white;
+                    background: transparent;
+                    border: 3px solid white;
+                    border-radius: 80px;
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-left: 250px;
+                    cursor: pointer;
+                }
+            }
+
+            .ger_more_div {
+                width: 520px;
+                height: 500px;
+                background: transparent;
+                margin-top: 150px;
+                margin-left: 250px;
+
+                .ger_more_p {
+                    color: white;
+                    font-weight: bold;
+                    font-size: 100px;
+                }
+
+                .ger_more_info {
+                    padding-top: 30px;
+                    color: #9DBADF;
+                    font-size: 20px;
+                    font-weight: bold;
+                }
+
+                .get_more_btn {
+                    width: 240px;
+                    height: 45px;
+                    color: white;
+                    background: transparent;
+                    border: 3px solid white;
+                    border-radius: 80px;
+                    font-weight: bold;
+                    font-size: 18px;
+                    margin-top: 40px;
+                    cursor: pointer;
+                }
+            }
+
+            .icons_div {
+                position: absolute;
+                width: 66px;
+                height: 400px;
+                background: transparent;
+                top: 500px;
+                left: 50px;
+
+                .icons {
+                    cursor: pointer;
+                    width: 28px;
+                    margin-left: 13px;
+                    margin-top: 15px;
+                    margin-bottom: 45px;
+                }
+            }
+        }
+
+        .aziz_work_two {
+            width: 100%;
+            height: 330px;
+            position: relative;
+            display: flex;
+
+            .never {
+                width: 48%;
+                height: 100%;
+                background-position: center;
+                background-image: url(../img/pepsi_img_two.jpg);
+                background-size: cover;
+                position: relative;
+                box-shadow: 0px 10px 30px;
+
+                .toda_syda {
+                    width: 89px;
+                    height: 89px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: absolute;
+                    top: -89px;
+                }
+
+                .left {
+                    background-color: #2560B7;
+                    right: 0;
+                }
+
+                .right {
+                    background-color: #226EC9;
+                    right: 89px;
+                }
+
+                .strelki {
+                    width: 40px;
+                    cursor: pointer;
+                }
+
+                .never_p {
+                    padding-top: 60px;
+                    padding-left: 60px;
+                    font-weight: bold;
+                    font-size: 30px;
+                }
+
+                .never_info {
+                    font-size: 18px;
+                    color: grey;
+                    padding-left: 60px;
+                    padding-top: 25px;
+                }
+
+                .never_info_two {
+                    padding-top: 10px;
+                    font-size: 18px;
+                    color: grey;
+                    padding-left: 60px;
+                }
+            }
+
+            .diet_div {
+                position: absolute;
+                top: -27%;
+                right: 26%;
+                width: 26%;
+                height: 127%;
+                background-color: black;
+                box-shadow: 0px 10px 30px;
+
+                .diet_p {
+                    color: white;
+                    font-weight: bold;
+                    font-size: 30px;
+                    padding-top: 120px;
+                    padding-left: 80px;
+                }
+
+                .diet_info {
+                    color: grey;
+                    padding-left: 80px;
+                    padding-top: 30px;
+                    font-size: 18px;
+                }
+
+                .diet_info_two {
+                    color: grey;
+                    padding-left: 80px;
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+
+            .proceed{
+                width: 120px;
+                height: 120px;
+                background-color: #3688DC;
+                border-radius: 60px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                right: 23%;
+                top: -47%;
+                z-index: 100;
+                box-shadow: 0px 15px 35px;
+
+                .start{
+                    cursor: pointer;
+                    width: 35px;
+                }
+            }
+
+            .history_div {
+                position: absolute;
+                right: 0;
+                top: -27%;
+                width: 26%;
+                height: 127%;
+                background-color: #3688DC;
+                box-shadow: 0px 10px 30px;
+
+                .history_p{
+                    color: white;
+                    font-weight: bold;
+                    font-size: 30px;
+                    padding-top: 120px;
+                    padding-left: 80px;
+                }
+
+                .history_info{
+                    color: white;
+                    padding-left: 80px;
+                    padding-top: 30px;
+                    font-size: 18px;
+                }
+
+                .history_info_two{
+                    color: white;
+                    padding-left: 80px;
+                    padding-top: 10px;
+                    font-size: 18px;
+                }
+            }
+        }
+
+
+    }
+}
